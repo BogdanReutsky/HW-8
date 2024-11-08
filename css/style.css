@@ -1,0 +1,52 @@
+td,th{
+    outline: 3px solid;
+}
+
+h3:first-child{
+    color: pink;
+}
+.text-box > div > p{
+    color: red;
+}
+ div + div + h3 + p{
+    color: green;
+}
+.yellow{
+    color: yellow;
+}
+#greycol{
+    color: gray;
+}
+.yellow > p{
+    color: green;
+}
+
+
+th:hover{
+    color: green;
+}
+td:hover{
+    color: yellow;
+}
+th:nth-child(even){
+    background-color: firebrick;
+}
+th:nth-child(odd){
+    background-color: gray ;
+}
+td:nth-child(2n){
+    background-color: azure;
+}
+td:nth-child(n+7){
+    background-color: green;
+}
+td:nth-child(-n+1){
+    background-color: blueviolet;
+}
+td:nth-child(3){
+background-color: violet;
+}
+td:nth-child(5){
+    background-color: coral;
+}
+
